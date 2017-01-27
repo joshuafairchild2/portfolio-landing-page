@@ -1,3 +1,70 @@
-h1 {
-  color: red;
+.row {
+  border: 1px black solid;
+  width: auto;
+}
+
+.col-md-6 {
+  border: 1px black solid;
+}
+
+.name {
+  border: 1px black solid;
+  float: left;
+}
+
+.name h1 {
+  text-align: center;
+  font-size: 60pt;
+  font-family: Josefin Slab, arial;
+  font-weight: bolder;
+  float: left;
+  border: 1px black solid;
+  clear: both;
+}
+
+#name-heading {
+
+}
+
+.name small {
+  display: block;
+  float: left;
+}
+
+.about-me {
+  border: 1px black solid;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  font-family: Maven pro, arial;
+}
+
+#about-me-heading {
+  margin-bottom: 30px;
+  border-bottom: 5px solid black;
+  width: 200px;
+  float: left;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.about-me p {
+  float: left;
+  text-align: justify;
+  font-size: 20pt;
+}
+
+.my-projects {
+  border: 1px black solid;
+  text-align: center;
+}
+
+.project {
+  border: 1px black solid;
+}
+
+.description {
+  border: 1px black solid;
+  margin: 20px
 }
