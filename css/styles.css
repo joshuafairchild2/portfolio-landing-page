@@ -67,7 +67,7 @@ body {
 
 .about-me p {
   float: left;
-  text-align: justify;
+  text-align: left;
   font-size: 20pt;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .project img {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 30px;
   width: 100%;
@@ -127,6 +127,10 @@ body {
   border: 3px black solid;
 }
 
+#resort {
+  border: 3px black solid;
+}
+
 .hobbies-list {
   float: left;
   clear: both;
@@ -145,4 +149,24 @@ body {
 
 .well {
   background-color: #f4eded;
+}
+
+.about-me-p3 {
+  float: left;
+  text-align: left;
+  font-size: 20pt;
+  margin-top: 30px;
+}
+
+.movies-list {
+  float: left;
+  text-align: left;
+  font-size: 20pt;
+  font-style: italic;
+}
+
+.not-italic {
+  text-align: left;
+  font-size: 20pt;
+  font-style: normal;
 }
