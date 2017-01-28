@@ -1,3 +1,9 @@
+body {
+  background: url('../img/background.png');
+  background-attachment: fixed;
+  margin-bottom: 50px;
+}
+
 .row {
   width: auto;
 }
@@ -15,6 +21,7 @@
 
 .name {
   float: left;
+  width: 100%;
 }
 
 .name h1 {
@@ -24,6 +31,14 @@
   font-weight: bolder;
   float: left;
   clear: both;
+}
+
+#name-heading {
+  margin-top: 40px;
+}
+
+#my-portfolio {
+  margin-top: 60px;
 }
 
 .name small {
@@ -56,6 +71,11 @@
   font-size: 20pt;
 }
 
+.about-me img {
+  width: 100%;
+  margin-top: 25px;
+}
+
 .about-me-p2 {
   margin-top: 35px;
 }
@@ -66,11 +86,12 @@
 
 .my-projects h1 {
   text-align: center;
-  width: 400px;
-  padding-top: 60px;
+  width: 100%;
+  height: 75%;
+  padding-top: 40px;
   font-family: Josefin Slab, arial;
   font-weight: bolder;
-  font-size: 40pt
+  font-size: 56pt
 }
 
 .project img {
@@ -85,6 +106,7 @@
   font-size: 20pt;
   font-family: maven pro, arial;
   font-weight: bold;
+  border-top: solid 5px white;
 }
 
 .description {
@@ -103,4 +125,24 @@
 
 #landing {
   border: 3px black solid;
+}
+
+.hobbies-list {
+  float: left;
+  clear: both;
+  font-size: 20pt;
+  font-family: maven pro, arial;
+  text-align: left;
+}
+
+#caption {
+  font-size: 18pt;
+  text-align: left;
+  margin-top: 28px;
+  padding-left: 40px;
+  border-bottom: 5px white solid;
+}
+
+.well {
+  background-color: #f4eded;
 }
