@@ -4,6 +4,8 @@
 
 This is a project for Epicodus made using HTML, CSS and Bootstrap. It is intended to act as my portfolio and showcase the projects that I have completed so far at Epicodus. It includes an "About Me" section on the left side as well as images, links and brief descriptions of a few of my projects.
 
+GitHub Pages: Joshuafairchid1.github.io/portfolio-landing-page
+
 ##Setup
 
 * Clone this repository
@@ -19,7 +21,8 @@ Bootstrap
 
 ## Contact Information
 
-Email: Joshua.fairchild429@gmail.com 
+Email: Joshua.fairchild429@gmail.com
+GitHub: https://github.com/joshuafairchild1
 
 ## Copyright Information
 
